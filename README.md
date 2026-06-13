@@ -1,13 +1,17 @@
 # WDPL
 Winslow &amp; District Pool League
 
-New 2
-<iframe
-  src="https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdff&embedded=true"
+New 3
+<object
+  data="https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf"
   width="100%"
-  height="600px"
-  style="border: none;"
-></iframe>
+  height="100%"
+>
+  <p>
+    Your browser does not support PDFs.
+    <a href="[https://example.com/test.pdf](https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf)">Download the PDF</a>.
+  </p>
+</object>
 
 
 
