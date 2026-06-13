@@ -1,10 +1,10 @@
 # WDPL
 Winslow &amp; District Pool League
 
-New 5
+New 6
 
 
-<object data="https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="https://github.com/ctdelves/WDPL/raw/refs/heads/main/Screenshot_20260613-172319.png" width="1000" height="1000" type='application/pdf'></object>
 
 
 
