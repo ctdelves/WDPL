@@ -4,7 +4,7 @@ Winslow &amp; District Pool League
 New 6
 
 
-<object data="https://github.com/ctdelves/WDPL/raw/refs/heads/main/Screenshot_20260613-172319.png" width="1000" height="1000" type='application/pdf'></object>
+<object data="https://raw.githubusercontent.com/ctdelves/WDPL/refs/heads/main/Screenshot_20260613-172319.png" width="1000" height="1000" type='application/png'></object>
 
 
 
