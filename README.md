@@ -17,6 +17,6 @@ data="https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.p
 
 
 
-<embed src="https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf" type="application/pdf"/>
+<embed src="[https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf](https://github.com/ctdelves/WDPL/raw/refs/heads/main/Copy%20of%20Winslow%20table-1.pdf)" type="application/pdf"/>
 
 https://github.com/ctdelves/WDPL/blob/main/Copy%20of%20Winslow%20table-1.pdf
