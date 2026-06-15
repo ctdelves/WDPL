@@ -10,10 +10,9 @@
   2026 WDPL Results.
 </h1>
 
-<p style="text-align:center; font-size:1.25em; max-width:700px; margin:auto;">
-  2026 WDPL Results.
+<p style="text-align:left; font-size:1.25em; max-width:700px; margin:auto;">
+  Updated 06/06/2026.
 </p>
-
 
 | Team | Played | Matches Won | Frames For | Frames Against | Points |
 |------|--------|-------------|------------|----------------|--------|
