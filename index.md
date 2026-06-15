@@ -15,5 +15,5 @@ Fixtures, results, standings and updates for the 2026 season.
 </div>
 
 <footer>
-  Winslow & District Pool League • Established 2026
+  • Winslow & District Pool League •
 </footer>
