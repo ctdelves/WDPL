@@ -1,4 +1,12 @@
-/* Force dark table background */
+/* Make the whole markdown page dark */
+.markdown-body {
+  background: #0d0d0d !important;
+  color: #e6e6e6 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Override GitHub's table styling */
 .markdown-body table {
   width: 90% !important;
   margin: 2em auto !important;
@@ -7,7 +15,6 @@
   border: 1px solid #333 !important;
 }
 
-/* Override GitHub's table cell styles */
 .markdown-body table th,
 .markdown-body table td {
   padding: 12px !important;
@@ -17,15 +24,12 @@
   background: #111 !important;
 }
 
-/* Header row */
 .markdown-body table th {
   background: #1a1a1a !important;
-  cursor: pointer;
   color: #00ccff !important;
   font-weight: 700 !important;
 }
 
-/* Row striping */
 .markdown-body table tr:nth-child(even) td {
   background: #151515 !important;
 }
@@ -34,7 +38,6 @@
   background: #1c1c1c !important;
 }
 
-/* Hover effect */
 .markdown-body table tr:hover td {
   background: #222 !important;
 }
