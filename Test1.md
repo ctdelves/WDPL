@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll("th").forEach(header => {
