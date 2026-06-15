@@ -6,6 +6,7 @@
 </div>
 
 # 2026 League Table
+
 | Team | Played | Matches Won | Frames For | Frames Against | Points |
 |------|--------|-------------|------------|----------------|--------|
 | Fox | 4 | 4 | 35 | 9 | 47 |
