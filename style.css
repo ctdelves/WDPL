@@ -6,38 +6,39 @@
   margin: 0 !important;
 }
 
-/* Override GitHub's table styling */
-.markdown-body table {
-  width: 90% !important;
-  margin: 2em auto !important;
-  border-collapse: collapse !important;
-  background: #111 !important;
-  border: 1px solid #333 !important;
+/* Navbar styling for Markdown pages */
+.markdown-body .navbar {
+  background: #000;
+  padding: 16px 0;
+  text-align: center;
+  border-bottom: 2px solid #222;
 }
 
-.markdown-body table th,
-.markdown-body table td {
-  padding: 12px !important;
-  border: 1px solid #333 !important;
-  text-align: center !important;
-  color: #e6e6e6 !important;
-  background: #111 !important;
+.markdown-body .navbar a {
+  color: #f2f2f2;
+  margin: 0 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 
-.markdown-body table th {
-  background: #1a1a1a !important;
-  color: #00ccff !important;
-  font-weight: 700 !important;
+/* CTA button */
+.markdown-body .cta a {
+  background: #0099cc;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0,153,204,0.5);
 }
 
-.markdown-body table tr:nth-child(even) td {
-  background: #151515 !important;
-}
-
-.markdown-body table tr:nth-child(odd) td {
-  background: #1c1c1c !important;
-}
-
-.markdown-body table tr:hover td {
-  background: #222 !important;
+/* Footer */
+.markdown-body footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1.5em 0;
+  color: #777;
+  font-size: 0.9em;
 }
