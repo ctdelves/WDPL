@@ -9,7 +9,7 @@
 </h1>
 
 <p style="text-align:center; font-size:1.25em; max-width:700px; margin:auto;">
-  The official home of fixtures, results, standings, and updates for the Winslow and District Pool League.
+  The (un)official home of fixtures, results, standings, and updates for the Winslow and District Pool League.
 </p>
 
 <p style="text-align:center; margin-top:2em;">
