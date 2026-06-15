@@ -1,47 +1,39 @@
-/* Dark background */
-body {
-  background: #0d0d0d;
-  color: #e6e6e6;
-  font-family: Arial, sans-serif;
-}
-
-/* Table styling */
+/* Force dark table background */
 table {
-  width: 90%;
-  margin: 2em auto;
-  border-collapse: collapse;
-  background: #111;
-  border: 1px solid #333;
+  width: 90% !important;
+  margin: 2em auto !important;
+  border-collapse: collapse !important;
+  background: #111 !important;
+  border: 1px solid #333 !important;
 }
 
-th, td {
-  padding: 12px;
-  border: 1px solid #333;
-  text-align: center;
+/* Override GitHub's table cell styles */
+table th, table td {
+  padding: 12px !important;
+  border: 1px solid #333 !important;
+  text-align: center !important;
+  color: #e6e6e6 !important;
+  background: #111 !important;
 }
 
-th {
-  background: #1a1a1a;
+/* Header row */
+table th {
+  background: #1a1a1a !important;
   cursor: pointer;
-  color: #00ccff;
+  color: #00ccff !important;
+  font-weight: 700 !important;
 }
 
-tr:nth-child(even) { background: #151515; }
-tr:nth-child(odd)  { background: #1c1c1c; }
-tr:hover           { background: #222; }
-
-/* Navigation bar */
-.navbar {
-  background: #000;
-  padding: 16px 0;
-  text-align: center;
-  border-bottom: 2px solid #222;
+/* Row striping */
+table tr:nth-child(even) td {
+  background: #151515 !important;
 }
 
-.navbar a {
-  color: #f2f2f2;
-  margin: 0 30px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1em;
+table tr:nth-child(odd) td {
+  background: #1c1c1c !important;
+}
+
+/* Hover effect */
+table tr:hover td {
+  background: #222 !important;
 }
