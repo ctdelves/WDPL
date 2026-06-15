@@ -17,5 +17,5 @@
 <script src="sorter.js"></script>
 
 <footer>
-  Winslow & District Pool League • Established 2026
+  • Winslow & District Pool League •
 </footer>
