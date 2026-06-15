@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>League Table</title>
+  <style>
+    table { border-collapse: collapse; width: 100%; }
+    th, td { padding: 8px; border: 1px solid #ccc; }
+    th { cursor: pointer; background: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>League Table</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Played</th>
+      <th>Matches Won</th>
+      <th>Frames For</th>
+      <th>Frames Against</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Fox</td><td>4</td><td>4</td><td>35</td><td>9</td><td>47</td></tr>
+    <tr><td>RBL</td><td>4</td><td>2</td><td>27</td><td>17</td><td>33</td></tr>
+    <tr><td>Two Brewers A</td><td>4</td><td>2</td><td>23</td><td>21</td><td>29</td></tr>
+    <tr><td>POW A</td><td>4</td><td>2</td><td>23</td><td>21</td><td>29</td></tr>
+    <tr><td>Nags</td><td>4</td><td>2</td><td>21</td><td>23</td><td>27</td></tr>
+    <tr><td>Two Brewers B</td><td>4</td><td>2</td><td>18</td><td>26</td><td>24</td></tr>
+    <tr><td>POW B</td><td>4</td><td>2</td><td>17</td><td>27</td><td>23</td></tr>
+    <tr><td>Swan</td><td>4</td><td>0</td><td>12</td><td>32</td><td>12</td></tr>
+  </tbody>
+</table>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll("th").forEach(header => {
+    header.addEventListener("click", () => {
+      const table = header.closest("table");
+      const index = Array.from(header.parentNode.children).indexOf(header);
+      const rows = Array.from(table.querySelectorAll("tbody tr"));
+      const asc = header.classList.toggle("asc");
+
+      rows.sort((a, b) => {
+        const A = a.children[index].innerText.trim();
+        const B = b.children[index].innerText.trim();
+        return asc
+          ? A.localeCompare(B, undefined, { numeric: true })
+          : B.localeCompare(A, undefined, { numeric: true });
+      });
+
+      rows.forEach(r => table.querySelector("tbody").appendChild(r));
+    });
+  });
+});
+</script>
+
+</body>
+</html>
