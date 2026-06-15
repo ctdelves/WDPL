@@ -1,10 +1,13 @@
-# Welcome to the Winslow and District Pool League
+<h1 style="text-align:center; font-size:2.2em; margin-bottom:0.3em;">
+  Welcome to the Winslow and District Pool League
+</h1>
 
-Welcome to the official home of the Winslow and District Pool League.  
-Here you’ll find fixtures, results, league tables, and updates throughout the season.
+<p style="text-align:center; font-size:1.2em;">
+  The official home of fixtures, results, and league standings.
+</p>
 
-👉 **[View the League Table](http://wdpl.tisha.co.uk/league)**
-
-More sections coming soon as the site grows.
-
-<img src="https://raw.githubusercontent.com/ctdelves/WDPL/refs/heads/main/Screenshot_20260613-172319.png" class="img-responsive" alt="">
+<p style="text-align:center; margin-top:1.5em;">
+  <a href="http://wdpl.tisha.co.uk/league" style="font-size:1.3em; font-weight:bold;">
+    👉 View the League Table
+  </a>
+</p>
