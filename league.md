@@ -21,5 +21,5 @@
 <script src="sorter.js"></script>
 
 <footer>
-  • Winslow & District Pool League •
+  Winslow & District Pool League
 </footer>
