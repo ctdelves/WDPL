@@ -1,32 +1,77 @@
-<!-- Navigation -->
+<!-- NAVIGATION BAR -->
 <div style="
-  background:#222;
-  padding:14px 0;
-  text-align:center;">
-  <a href="http://wdpl.tisha.co.uk/" style="color:white; margin:0 25px; text-decoration:none;">Home</a>
-  <a href="http://wdpl.tisha.co.uk/league" style="color:white; margin:0 25px; text-decoration:none;">League Table</a>
+  width:100%;
+  background:#0d0d0d;
+  padding:16px 0;
+  text-align:center;
+  font-size:1.15em;
+  border-bottom:2px solid #222;
+  box-shadow:0 2px 6px rgba(0,0,0,0.6);
+">
+  <a href="http://wdpl.tisha.co.uk/" 
+     style="color:#f2f2f2; margin:0 30px; text-decoration:none; font-weight:600;">
+     Home
+  </a>
+  <a href="http://wdpl.tisha.co.uk/league" 
+     style="color:#f2f2f2; margin:0 30px; text-decoration:none; font-weight:600;">
+     League Table
+  </a>
 </div>
 
-<div style="
+<!-- HERO HEADER -->
+<h1 style="
+  text-align:center;
+  font-size:3em;
+  margin-top:1.2em;
+  color:#e6e6e6;
+  text-shadow:0 0 12px rgba(0,255,255,0.4);
+">
+  Winslow & District Pool League
+</h1>
+
+<p style="
+  text-align:center;
+  font-size:1.3em;
+  color:#cccccc;
   max-width:700px;
+  margin:auto;
+  margin-top:0.5em;
+">
+  Official results, fixtures, standings and updates for the 2026 season.
+</p>
+
+<!-- DIVIDER -->
+<hr style="
+  max-width:600px;
   margin:2em auto;
-  padding:2em;
-  background:#fafafa;
-  border-radius:10px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+  border:0;
+  border-top:2px solid #333;
+">
 
-  <h1 style="text-align:center; font-size:2.4em; margin-top:0;">
-    Winslow & District Pool League
-  </h1>
+<!-- CALL TO ACTION BUTTON -->
+<p style="text-align:center; margin-top:2em;">
+  <a href="http://wdpl.tisha.co.uk/league"
+     style="
+       background:#0099cc;
+       color:white;
+       padding:14px 28px;
+       border-radius:6px;
+       text-decoration:none;
+       font-size:1.2em;
+       font-weight:600;
+       box-shadow:0 0 10px rgba(0,153,204,0.5);
+     ">
+     View League Table
+  </a>
+</p>
 
-  <p style="text-align:center; font-size:1.2em; color:#555;">
-    The official home of the 2026 WDPL season.
-  </p>
-
-  <p style="text-align:center; margin-top:2em;">
-    <a href="http://wdpl.tisha.co.uk/league"
-       style="background:#0078ff; color:white; padding:12px 24px; border-radius:6px; text-decoration:none; font-size:1.2em;">
-       View League Table
-    </a>
-  </p>
-</div>
+<!-- FOOTER -->
+<footer style="
+  text-align:center;
+  margin-top:3em;
+  padding:1.5em 0;
+  color:#777;
+  font-size:0.9em;
+">
+  Winslow & District Pool League • Established 2026
+</footer>
