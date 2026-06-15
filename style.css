@@ -1,5 +1,5 @@
 /* Force dark table background */
-table {
+.markdown-body table {
   width: 90% !important;
   margin: 2em auto !important;
   border-collapse: collapse !important;
@@ -8,7 +8,8 @@ table {
 }
 
 /* Override GitHub's table cell styles */
-table th, table td {
+.markdown-body table th,
+.markdown-body table td {
   padding: 12px !important;
   border: 1px solid #333 !important;
   text-align: center !important;
@@ -17,7 +18,7 @@ table th, table td {
 }
 
 /* Header row */
-table th {
+.markdown-body table th {
   background: #1a1a1a !important;
   cursor: pointer;
   color: #00ccff !important;
@@ -25,15 +26,15 @@ table th {
 }
 
 /* Row striping */
-table tr:nth-child(even) td {
+.markdown-body table tr:nth-child(even) td {
   background: #151515 !important;
 }
 
-table tr:nth-child(odd) td {
+.markdown-body table tr:nth-child(odd) td {
   background: #1c1c1c !important;
 }
 
 /* Hover effect */
-table tr:hover td {
+.markdown-body table tr:hover td {
   background: #222 !important;
 }
