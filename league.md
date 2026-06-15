@@ -1,5 +1,3 @@
-# League Table
-
 <!-- Navigation Bar -->
 <div style="width:100%; padding: 12px 0; background:#222; text-align:center; font-size:1.1em;">
   <a href="http://wdpl.tisha.co.uk/" style="color:white; margin:0 20px; text-decoration:none;">Home</a>
