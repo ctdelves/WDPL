@@ -1,22 +1,72 @@
+/* GLOBAL DARK THEME FOR MARKDOWN PAGES */
+.markdown-body {
+  background: #0d0d0d !important;
+  color: #e6e6e6 !important;
+  font-family: Arial, sans-serif !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* NAVBAR */
+.markdown-body .navbar {
+  background: #000;
+  padding: 16px 0;
+  text-align: center;
+  border-bottom: 2px solid #222;
+}
+
+.markdown-body .navbar a {
+  color: #f2f2f2;
+  margin: 0 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+/* CTA BUTTON */
+.markdown-body .cta a {
+  background: #0099cc;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0,153,204,0.5);
+}
+
+/* FOOTER */
+.markdown-body footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1.5em 0;
+  color: #777;
+  font-size: 0.9em;
+}
+
+/* TABLE — WHITE BACKGROUND + BLACK TEXT + BLACK LINES */
+.markdown-body table,
+.markdown-body table tr,
+.markdown-body table th,
+.markdown-body table td {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+}
+
 .markdown-body table {
   width: 90% !important;
   margin: 2em auto !important;
   border-collapse: collapse !important;
-  background: #ffffff !important; /* white table */
-  border: 1px solid #000 !important; /* black border */
-}
-
-.markdown-body table th,
-.markdown-body table td {
-  padding: 12px !important;
-  border: 1px solid #000 !important; /* black lines */
-  text-align: center !important;
-  color: #000 !important; /* black text */
-  background: #ffffff !important;
 }
 
 .markdown-body table th {
-  background: #e0e0e0 !important; /* light grey header */
-  color: #000 !important;
+  background: #e6e6e6 !important;
   font-weight: 700 !important;
+}
+
+/* REMOVE GITHUB STRIPING */
+.markdown-body table tr:nth-child(even) td,
+.markdown-body table tr:nth-child(odd) td {
+  background: #ffffff !important;
 }
