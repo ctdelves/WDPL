@@ -9,7 +9,7 @@
 
 Welcome to the (un)official home of the WDPL.  
 Fixtures, results, standings and updates for the 2026 season.
-
+<p></p>
 <div class="cta">
   <a href="http://wdpl.tisha.co.uk/league">View League Table</a>
 </div>
