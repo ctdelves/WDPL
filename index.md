@@ -7,7 +7,7 @@
 
 # Winslow & District Pool League
 
-Welcome to the official home of the WDPL.  
+Welcome to the (un)official home of the WDPL.  
 Fixtures, results, standings and updates for the 2026 season.
 
 <div class="cta">
